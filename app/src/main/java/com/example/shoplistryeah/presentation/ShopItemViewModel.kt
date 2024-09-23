@@ -1,9 +1,9 @@
 package com.example.shoplistryeah.presentation
 
+import ShopListRepositoryImpl
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
-import com.example.shoplistryeah.data.ShopListRepositoryImpl
 import com.example.shoplistryeah.domain.AddShopItemUseCase
 import com.example.shoplistryeah.domain.EditShopItemUseCase
 import com.example.shoplistryeah.domain.GetShopItemUseCase
